@@ -12,5 +12,5 @@ if ENVIRONMENT:
 else:
     # Fill the Values
     API_ID = 0
-    API_HASH = ""
-    BOT_TOKEN = ""
+    API_HASH = "0"
+    BOT_TOKEN = "0"
