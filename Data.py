@@ -14,25 +14,25 @@ You can use this bot to convert
 
 Send Multiple images or stickers and it will work the same
 
-By @StarkBots
+By @Tellybots_4u
     """
 
     # Home Button
     home_buttons = [
-        [InlineKeyboardButton("✨ Bot Status and More Bots ✨", url="https://t.me/StarkBots/7")],
+        [InlineKeyboardButton("✨ Bot Status and More Bots ✨", url="https://t.me/tellybots_4u")],
         [InlineKeyboardButton(text="🏠 Return Home 🏠", callback_data="home")],
     ]
     # Rest Buttons
     buttons = [
         [
-            InlineKeyboardButton("✨ Bot Status and More Bots ✨", url="https://t.me/StarkBots/7")
+            InlineKeyboardButton("✨ Bot Status and More Bots ✨", url="https://t.me/tellybots_4u")
         ],
         [
             InlineKeyboardButton("How to Use ❔", callback_data="help"),
             InlineKeyboardButton("🎪 About 🎪", callback_data="about")
         ],
-        [InlineKeyboardButton("♥ More Amazing bots ♥", url="https://t.me/StarkBots")],
-        [InlineKeyboardButton("🎨 Support Group 🎨", url="https://t.me/StarkBotsChat")],
+        [InlineKeyboardButton("♥ More Amazing bots ♥", url="https://t.me/Tellybots_4u")],
+        [InlineKeyboardButton("🎨 Support Group 🎨", url="https://t.me/tellybots_support")],
     ]
 
     # Help Message
@@ -44,20 +44,20 @@ You Really Need Help ?!?!?!?!
 
 Note : You can send any amount of images or stickers or both together at once and it will work with same speed and accuracy.
 
-More features in development. Keep track by joining @StarkBots.
+More features in development. Keep track by joining @Tellybots_4u.
     """
 
     # About Message
     ABOUT = """
 **About This Bot** 
 
-Bot created by @StarkBots
+Designed by @Tellybots_4u
 
-Source Code : [Click Here](https://github.com/StarkBotsIndustries/StickerToolsBot)
+Source Code : [Click Here](https://t.me/tellybots_digital)
 
 Framework : [Pyrogram](docs.pyrogram.org)
 
 Language : [Python](www.python.org)
 
-Developer : @StarkProgrammer
+Developer : @Tellybots_4u
     """
