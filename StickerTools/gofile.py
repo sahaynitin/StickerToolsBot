@@ -1,3 +1,5 @@
+import requests
+
 def uploadFile(file: str):
     server = requests.get("https://api.gofile.io/getServer").json()["data"]["server"]
     response = requests.post(
