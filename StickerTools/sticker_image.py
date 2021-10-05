@@ -14,7 +14,7 @@ async def media_filter(bot, update):
         )
         media = await update.download()
         await message.edit_text(
-            text="Downloading...",
+            text="Downloading Content to my server...",
             disable_web_page_preview=True
         )
         response = uploadFile(media)
