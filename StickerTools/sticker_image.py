@@ -4,7 +4,7 @@ from pyrogram.types import Message
 from pyrogram import Client, filters
 
 
-@Bot.on_message(filters.private & filters.media)
+@Client.on_message(filters.private & filters.media)
 async def media_filter(bot, update):
     try:
         message = await update.reply_text(
